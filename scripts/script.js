@@ -27,13 +27,6 @@ function ValidaUserName(){
         return true;
     }
 }
-
-function ValidaPsswd(){
-    
-}
-
-
-
 /*
 ---- VALIDA PASSWORD ----
 - Que el campo no esté vacío
@@ -41,3 +34,20 @@ function ValidaPsswd(){
 - Que contenga numeros y letras
 -- Si todo OK se limpia
 */
+
+function ValidaPsswd(){
+    let psswd =  document.getElementById('password').value; 
+    let errorPsswd = document.getElementById('error_psswd');
+
+    if(psswd === ""){
+        errorPsswd.innerHTML = "El campo no puede estar vacío";
+    } else if(psswd.length<8){
+        errorPsswd.innerHTML = "El campo debe contener como mínimo 8 carácteres";
+    } else if(!/^[a-zA-Z0-9]+$/.test(username)){
+        errorPsswd.innerHTML = "El campo debe contener solo números y letras";
+    }
+
+}
+
+
+
