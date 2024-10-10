@@ -61,12 +61,29 @@ button{
     transition: 1s;
     border: black solid 1px;
 }
-
-.imgNet{
-    padding-right: 90%;
-    padding-top: 1%;
+header {
+    height: 10vh;
+    width: 100%;
+    padding: 10px;
+    background-color: #f4f5fa;
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
 }
 
-.imgLogo{
-    padding-top: -5%;
+.imgNet {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 70%; 
+
+}
+
+.imgLogo {
+    padding-top: 0; 
+    height: 90%; 
 }
