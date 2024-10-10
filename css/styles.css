@@ -1,4 +1,6 @@
+
 body{
+    width: 100%;
     margin: 0 auto;
     background-color: #ffdcdc;
     font-family: "Poppins", sans-serif;
@@ -8,11 +10,11 @@ header {
     height: 10vh;
     width: 100%;
     padding: 10px;
-    background-color: #490000;
+    background-color: #ffffff;
     flex-wrap: wrap;
     text-align: center;
 }
-.login {
+form{
     text-align: center;
     width: 20%;
     background-color: #490000; 
@@ -24,6 +26,40 @@ header {
     padding-bottom: 3%;
 }
 
-.error{
-    color: red
+.login {
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+input[type="text"]{
+    width: 70%;
+}
+
+input[type="password"]{
+    width:  70%;
+}
+
+button{
+    width: 80%;
+    background-color:#ffdcdc ;
+    color: black;
+    padding-left: 7%;
+    padding-right: 7%;
+    border-radius: 10px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer; 
+    font-size: 16px; 
+    margin-top: 1rem;
+    transition: 1s;
+    border: black solid 1px;
+}
+
+.imgNet{
+    padding-right: 90%;
+    padding-top: 1%;
+}
+
+.imgLogo{
+    padding-top: 0%;
 }
