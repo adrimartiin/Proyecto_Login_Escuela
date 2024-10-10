@@ -46,21 +46,6 @@ input[type="password"]{
     width:  70%;
 }
 
-button{
-    width: 80%;
-    background-color:#3785C4 ;
-    color: black;
-    padding-left: 7%;
-    padding-right: 7%;
-    border-radius: 10px; 
-    padding-top: 10px;
-    padding-bottom: 10px;
-    cursor: pointer; 
-    font-size: 16px; 
-    margin-top: 1rem;
-    transition: 1s;
-    border: black solid 1px;
-}
 header {
     height: 10vh;
     width: 100%;
@@ -90,4 +75,57 @@ header {
 
 .error{
     color: red;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.login {
+    width: 20%;
+    margin-top: 5%;
+    padding-bottom:2% ;
+}
+form {
+    text-align: center;
+    width: 20%;
+    background-color: black; 
+    color: white;
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 auto; 
+}
+
+label{
+    margin-left: 11%
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 80%; 
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    margin: 10px auto; 
+    box-sizing: border-box;
+    display: block; 
+}
+
+button{
+    width: 80%;
+    background-color:#3785C4 ;
+    color: black;
+    padding-left: 7%;
+    padding-right: 7%;
+    border-radius: 15px; 
+    padding-top: 3%;
+    padding-bottom: 3%;
+    cursor: pointer; 
+    font-size: 14px; 
+    margin-top: 1rem;
+    transition: 1s;
+    border: black solid 1px;
 }
