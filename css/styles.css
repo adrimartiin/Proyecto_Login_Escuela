@@ -1,29 +1,36 @@
 
 body{
     width: 100%;
-    margin: 0 auto;
-    background-color: #ffdcdc;
+    margin: 0%;
+    padding: 0%;
+    background-color: #3785C4;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
 }
+
 header {
     height: 10vh;
     width: 100%;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #f4f5fa;
     flex-wrap: wrap;
     text-align: center;
 }
 form{
     text-align: center;
     width: 20%;
-    background-color: #490000; 
+    background-color: black; 
     color: white;
     border-radius: 20px;
-    flex-wrap: nowrap;
     flex-direction: column;
     padding: 10px;
     padding-bottom: 3%;
+}
+
+label{
+    font-size: 15px;
+    text-align: left;
+
 }
 
 .login {
@@ -41,7 +48,7 @@ input[type="password"]{
 
 button{
     width: 80%;
-    background-color:#ffdcdc ;
+    background-color:#3785C4 ;
     color: black;
     padding-left: 7%;
     padding-right: 7%;
@@ -61,5 +68,5 @@ button{
 }
 
 .imgLogo{
-    padding-top: 0%;
+    padding-top: -5%;
 }
