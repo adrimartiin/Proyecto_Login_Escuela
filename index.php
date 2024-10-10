@@ -14,9 +14,11 @@
     </header>
         <form method="POST" action="./validaciones_php/procValidaciones.php" class="login">
             <h4>Iniciar sesión</h4>
+                <label for="">Usuario:</label><br>
                 <input type="text" name="usuario" id="usuario">
             <p class="error" id="error_user"></p> 
             <br>
+                <label for="">Contraseña:</label><br>
                 <input type="password" id="password" name="password">
             <p class="error" id="error_psswd"></p>
                 <button type="submit" value="ENTRAR">Iniciar sesión</button>
