@@ -14,10 +14,10 @@
     </header>
         <form method="POST" action="./validaciones_php/procValidaciones.php" class="login">
             <h4>Iniciar sesión</h4>
-                <input type="text" name="usuario" id="usuario">
+                <input type="text" name="usuario" id="usuario" onblur="ValidaUserName()">
             <p class="error" id="error_user"></p> 
             <br>
-                <input type="password" id="password" name="password">
+                <input type="password" id="password" name="password" onblur="ValidaPsswd()">
             <p class="error" id="error_psswd"></p>
                 <button type="submit" value="ENTRAR">Iniciar sesión</button>
         </form>   
