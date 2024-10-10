@@ -87,3 +87,7 @@ header {
     padding-top: 0; 
     height: 90%; 
 }
+
+.error{
+    color: red;
+}
