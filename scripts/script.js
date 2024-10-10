@@ -8,7 +8,7 @@
 */
 function ValidaUserName(){
     let username = document.getElementById('usuario').value;
-    let errorUser = document.getElementById('error_name');
+    let errorUser = document.getElementById('error_user');
 
     if(username === ""){
         errorUser.innerHTML = "El campo no tiene que estar vacío";
@@ -19,11 +19,11 @@ function ValidaUserName(){
     } else if(!isNaN(username)){
         errorUser.innerHTML = "El campo no tiene que ser un número";
         return false;
-    } else if(username.includes(/[.*+?^${}()|[\]\\]/g, '\\$&')){
+    } else if(!/^[a-zA-Z]+$/.test(username)){
         errorUser.innerHTML = "El campo no tiene que tener carácteres especiales";
         return false;
     } else {
-        errorUser = "";
+        errorUser.innerHTML = "";
         return true;
     }
 }
